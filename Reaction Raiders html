@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reaction Raiders</title>
+</head>
+<body>
+    <h1>Reaction Raiders</h1>
+    <p>Click the correct reaction type!</p>
+
+    <button onclick="check('Combustion')">Combustion</button>
+    <button onclick="check('Synthesis')">Synthesis</button>
+    <button onclick="check('Decomposition')">Decomposition</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
