@@ -1,0 +1,9 @@
+function check(answer) {
+    const correct = "Combustion";
+
+    if (answer === correct) {
+        document.getElementById("result").textContent = "✅ Correct!";
+    } else {
+        document.getElementById("result").textContent = "❌ Try Again!";
+    }
+}
